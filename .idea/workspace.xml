@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="089b69a4-4a4f-4425-b882-41b591998eb3" name="Default Changelist" comment="" />
+    <list default="true" id="089b69a4-4a4f-4425-b882-41b591998eb3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/new_site/database/migrations/2021_02_28_135937_create_subcategories_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_site/resources/views/admin/body/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_site/resources/views/admin/body/header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_site/resources/views/admin/body/sidebar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_site/resources/views/admin/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_site/resources/views/backend/category/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_site/resources/views/backend/category/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_site/resources/views/backend/category/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_site/resources/views/backend/district/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_site/resources/views/backend/district/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_site/resources/views/backend/district/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_site/resources/views/backend/post/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_site/resources/views/backend/subcategory/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_site/resources/views/backend/subcategory/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_site/resources/views/backend/subcategory/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_site/resources/views/backend/subdistrict/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_site/resources/views/backend/subdistrict/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_site/resources/views/backend/subdistrict/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_site/resources/views/pagination-links.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/full_site.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/full_site.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_site/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/new_site/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_site/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/new_site/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_site/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/new_site/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_site/resources/views/admin/admin_master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/new_site/resources/views/admin/admin_master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_site/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/new_site/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_site/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/new_site/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +39,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/new_site/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -130,9 +162,11 @@
       <path value="$PROJECT_DIR$/new_site/vendor/dasprid/enum" />
       <path value="$PROJECT_DIR$/new_site/vendor/graham-campbell/result-type" />
       <path value="$PROJECT_DIR$/new_site/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/new_site/vendor/intervention/image" />
     </include_path>
   </component>
   <component name="ProjectId" id="1oymCebyASmJz7ASvIE87t9o1GE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -141,7 +175,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/new_site/public/backend" />
+    <property name="last_opened_file_path" value="D:/PHP/50 projects/2-project" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -166,11 +200,29 @@
       <updated>1614267077669</updated>
       <workItem from="1614267078966" duration="4254000" />
       <workItem from="1614311144691" duration="10000" />
-      <workItem from="1614332485192" duration="2740000" />
+      <workItem from="1614332485192" duration="11057000" />
+      <workItem from="1614505516906" duration="11299000" />
+      <workItem from="1614567502531" duration="2869000" />
+      <workItem from="1614581387883" duration="24534000" />
+      <workItem from="1614611415619" duration="3195000" />
+      <workItem from="1614657639136" duration="6176000" />
+      <workItem from="1614668534945" duration="5278000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
